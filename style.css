@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: skyblue}
+
+
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: table;
+
+
+}
+
+
+.container{
+  width: 50vw;
+  height: 700px;
+  background-color:green;
+  margin-left: 25%;
+  padding: 0;
+
+}
+
+
+.giallo{
+  background-color: yellow;
+  height: 50px;
+  margin-top: 10px;}
+
+.rosso{
+  background-color: red;
+  width: 20%;
+  height: 200px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+
+.grigio{
+  background-color: grey;
+  width: 30%;
+  height: 450px;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+  }
+
+.viola{
+  background-color: purple;
+  width: 45%;
+  height: 150px;
+  margin-top: 10px;
+  margin-left:10px ;
+  float: left;}
+
+.blu{
+  background-color:blue;
+    width: 45%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left:10px ;
+    margin-bottom: 100px;
+    float: left;}
+
+  .bianco{background-color: white;
+    height: 170px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
